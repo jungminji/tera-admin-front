@@ -1,0 +1,10 @@
+@import '~sass/main';
+
+.header {
+    height: 45px;
+    width: 100%;
+    background: map-get($color, primary);
+    .nav {
+        
+    }
+}

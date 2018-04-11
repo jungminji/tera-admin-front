@@ -1,0 +1,11 @@
+@import 'partials/color';
+
+* {
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
+}
+
+html {
+    font-size: 10px;
+    color: #FFF;
+    background-color: map-get($color, background);
+}
