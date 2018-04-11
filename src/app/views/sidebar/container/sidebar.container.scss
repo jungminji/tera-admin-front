@@ -1,7 +1,8 @@
 @import '~sass/main';
 
 .nav {
-    background-color: lighten(map-get($color, background), 10%);
+    background-color: lighten(map-get($color, background), 15%);
     width: 160px;
     height: 100%;
+    overflow: hidden;
 }

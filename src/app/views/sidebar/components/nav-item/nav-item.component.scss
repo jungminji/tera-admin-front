@@ -1,0 +1,32 @@
+@import '~sass/main';
+
+.link {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    text-decoration: none;
+    color: #FFF;
+    padding-left: 10px;
+    box-sizing: border-box;
+    .icon {
+        flex-basis: 15%;
+        font-size: 1.4rem;
+    }
+    .contents {
+        flex-basis: 100%;
+        font-size: 1.2rem;
+    }
+    &.active {
+        background: lighten(map-get($color, background), 10%);
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 5px;
+            background-color: map-get($color, secondary);
+        }
+    }
+}
